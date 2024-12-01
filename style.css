@@ -1,0 +1,41 @@
+/* General body styles */
+body {
+    background-color: #191724;
+    color: #fff;
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Terminal container */
+  #terminal {
+    padding: 20px;
+    height: 100vh;
+    font-size: 1.7em;
+    overflow-y: auto;
+    white-space: pre-wrap;
+  }
+  
+  /* Input line container */
+  .input-line {
+    display: flex;
+  }
+  
+  /* Prompt styles */
+  .prompt {
+    margin-right: 5px;
+  }
+  
+  /* Input box styles */
+  .input {
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1em; /* Adjusted for better readability */
+    flex-grow: 1;
+    padding: 0;
+  }
+  
+  
