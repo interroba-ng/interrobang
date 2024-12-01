@@ -28,7 +28,7 @@ const commands = [
     },
     {
       name: 'owo',
-      decription: 'owo',
+      description: 'owo',
       execute: () => "owo",
     }
   ];
