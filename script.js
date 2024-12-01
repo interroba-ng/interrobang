@@ -30,6 +30,11 @@ const commands = [
       name: 'owo',
       description: 'owo',
       execute: () => "owo",
+    },
+    {
+      name: 'gravity-falls',
+     description: 'my little sisters favorite show',
+      execute: () => "dipper and mabel go on a trip and find bill randomly, and ford beats bill.",
     }
   ];
   
