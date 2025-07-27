@@ -31,6 +31,11 @@ const commands = [
       description: 'owo',
       execute: () => "owo",
     },
+    {
+      name: 'bing!',
+      description: "this is just a big ol' test! if youre seeing this, screenshot it and send it to me!",
+      execute: () => "this is just a big ol' test! if youre seeing this, screenshot it and send it to me!",
+    },
 
   ];
   
