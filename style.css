@@ -1,8 +1,9 @@
 /* General body styles */
 body {
-    background-color: #191724;
-    color: #fff;
-    font-family: 'Ubuntu Mono', monospace;
+    background-color: #262626;
+    color: #ebdbb1;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
     margin: 0;
     padding: 0;
   }
@@ -19,6 +20,7 @@ body {
   /* Input line container */
   .input-line {
     display: flex;
+    align-items: center; /* or center if baseline still looks weird */
   }
   
   /* Prompt styles */
@@ -31,10 +33,12 @@ body {
     background: none;
     border: none;
     outline: none;
-    color: #fff;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 1em; /* Adjusted for better readability */
-    flex-grow: 1;
+    color: #ebdbb1;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: inherit;
+    line-height: 1em;
+    vertical-align: baseline;
+    margin: 0;
     padding: 0;
   }
   
